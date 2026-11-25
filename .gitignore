@@ -1,0 +1,18 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 脚本的输出目录与工作区配置
+md_*/
+.workbuddy/
+
+# 本地内置的第三方 PDF 依赖（仓库用 requirements.txt 管理）
+vendor/
+
+# 本地生成的网页上传包与一键推送脚本（含个人仓库地址，不属于仓库内容）
+files-to-md-上传包.zip
+推送到GitHub.command
