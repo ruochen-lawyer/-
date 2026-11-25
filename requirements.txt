@@ -1,0 +1,6 @@
+# PDF 文字提取（可选依赖）
+# macOS 无需安装：脚本会自动降级使用系统自带的 PDFKit。
+# Windows / Linux，或希望统一用纯 Python 解析 PDF 时，执行：
+#   python3 -m pip install -r requirements.txt
+pypdf==4.3.1
+typing_extensions==4.12.2; python_version < "3.11"
